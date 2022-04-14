@@ -21,7 +21,7 @@ public class QuanLyOto implements QuanLy<Oto>{
 
     @Override
     public void xoa(String name) {
-
+        danhSach[timKiem(name)] = null;
     }
 
     @Override

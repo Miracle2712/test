@@ -21,7 +21,7 @@ public class QuanLyXeMay implements QuanLy<XeMay>{
 
     @Override
     public void xoa(String name) {
-
+        danhSach[timKiem(name)] = null;
     }
 
     @Override
